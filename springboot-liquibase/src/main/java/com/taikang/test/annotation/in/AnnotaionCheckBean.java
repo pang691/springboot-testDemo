@@ -1,4 +1,4 @@
-package com.taikang.test.annotation;
+package com.taikang.test.annotation.in;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

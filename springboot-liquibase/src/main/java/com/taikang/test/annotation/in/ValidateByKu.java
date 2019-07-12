@@ -1,6 +1,5 @@
-package com.taikang.test.annotation;
+package com.taikang.test.annotation.in;
 
-import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import javax.validation.ConstraintValidator;
@@ -8,6 +7,9 @@ import javax.validation.ConstraintValidatorContext;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 通过注解前端数据校验
+ */
 public class ValidateByKu implements ConstraintValidator<AnnotationCustom,String> {
     private AnnotationCustom annotationCustom;
     @Override

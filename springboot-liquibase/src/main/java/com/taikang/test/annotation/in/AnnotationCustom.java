@@ -1,4 +1,4 @@
-package com.taikang.test.annotation;
+package com.taikang.test.annotation.in;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;
