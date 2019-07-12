@@ -12,5 +12,5 @@ liquibase:
     user: ${spring.datasource.username}
     password: ${spring.datasource.password}
     url: ${spring.datasource.url}
-    enabled: true
+    enabled: false
     drop-first: true
