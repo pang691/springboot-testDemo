@@ -2,24 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ffeb196-3cde-4f98-8a1c-6b0578a07a65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilReflect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/Dict2NameLabel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/Dict2Names.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessageAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/CacheManagerHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/NamedThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/OAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/OAuth2Api.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/AutzUserPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/DataAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/OAuth2Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/PermissionModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/RoleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/UserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/AnonymousUserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/AuthHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/AuthSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/Authenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/service/OAuth2ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/AccessTokenModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/Caches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/LoginCaches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/OAuth2AccessToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/UtilCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/UtilFastjson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/upload/UploadController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/AnnotaionCheckBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/in/AnnotaionCheckBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/AnnotationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/AnnotationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/AnnotationCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/in/AnnotationCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/ValidateByKu.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/in/ValidateByKu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/annotation/AnnotaionCheckBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/annotation/AnnotationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/annotation/AnnotationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/annotation/AnnotationCustom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/annotation/ValidateByKu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-liquibase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/target/classes/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,35 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/AnnotationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessageAdvice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/Dict2Names.java">
+        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/upload/UploadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+            <state relative-caret-position="66">
+              <caret line="157" column="43" selection-start-line="157" selection-start-column="37" selection-end-line="157" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,19 +57,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/Model.java">
+        <entry file="file://$PROJECT_DIR$/springboot-liquibase/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="153">
+              <caret line="57" column="24" selection-start-line="54" selection-start-column="8" selection-end-line="57" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/Dict2NameLabel.java">
+        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/OAuth2Api.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="134">
+              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,53 +78,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilReflect.java">
+        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/Authenticator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="74">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessageBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-              <folding>
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilWeb.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -157,9 +102,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>query_cache_size</find>
+      <find>splitString2List</find>
+      <find>AuthcException</find>
+      <find>setAuthenticator</find>
+      <find>OAuth2AccessToken</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>Exception</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -168,16 +118,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/resources/liquibase/sql/db.1.mysql.sql" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/LiquibaseApp.java" />
-        <option value="E:/software/apache-maven-3.6.0/conf/settings.xml" />
         <option value="$PROJECT_DIR$/springboot-liquibase/src/main/resources/applicatio-dev.yml" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-liquibase/src/main/resources/liquibase/master.xml" />
         <option value="$PROJECT_DIR$/springboot-liquibase/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/config/Swagger2.java" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/AnnotaionCheckBean.java" />
         <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/AnnotationCustom.java" />
         <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/ValidateByKu.java" />
@@ -192,6 +137,38 @@
         <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilReflect.java" />
         <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessageBean.java" />
         <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/Dict2Names.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/CacheManagerHolder.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/NamedThreadFactory.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/OAuth.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/Oauth2Api.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/AuthSupplier.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/Authentication.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/UserModel.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/RoleModel.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/DataAccess.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/DataAccess.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/UtilFastjson.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/UtilCollection.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/PermissionModel.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/Authentication.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/Authenticator.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/AnonymousUserModel.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/Caches.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/LoginCaches.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/AutzUserPO.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/OAuth2Client.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/OAuth2Client.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/OAuth2AccessToken.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/AccessTokenModel.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/service/OAuth2Service.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/service/OAuth2ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/User.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/Test.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/AuthHolder.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/OAuth2Api.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/upload/UploadController.java" />
       </list>
     </option>
   </component>
@@ -241,6 +218,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,24 +277,12 @@
               <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -324,9 +290,9 @@
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="RequestMappingsPanelWidth0" value="15" />
-    <property name="RequestMappingsPanelWidth1" value="15" />
-    <property name="RequestMappingsPanelWidth2" value="15" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -352,7 +318,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.LiquibaseApp">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.taikang.test.Test" />
+      <module name="springboot-liquibase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.taikang.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LiquibaseApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot-liquibase" />
       <extension name="coverage">
@@ -369,6 +348,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.LiquibaseApp" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -384,11 +364,12 @@
       <updated>1562132272120</updated>
       <workItem from="1562132275817" duration="9676000" />
       <workItem from="1562635489739" duration="1393000" />
+      <workItem from="1566442263153" duration="18231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29010000" />
+    <option name="totallyTimeSpent" value="48435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -405,14 +386,14 @@
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.330373" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3285968" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32978722" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.40425533" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.40319717" />
       <window_info active="true" anchor="bottom" id="Debug" order="11" visible="true" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -440,14 +421,14 @@
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.330373" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3285968" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32978722" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.40425533" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.40319717" />
       <window_info active="true" anchor="bottom" id="Debug" order="11" visible="true" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -506,6 +487,12 @@
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/upload/UploadController.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -515,271 +502,10 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/1.5.2.RELEASE/spring-boot-starter-parent-1.5.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6250" />
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.taikang.test:springboot-liquibase:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.taikang.test:springboot-liquibase:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.taikang.test:springboot-liquibase:1.0-SNAPSHOT</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot:jar:1.5.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11/ch.qos.logback:logback-core:jar:1.1.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.24</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.24</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.24</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework:spring-core:jar:4.3.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.hibernate:hibernate-validator:jar:5.3.4.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.hibernate:hibernate-validator:jar:5.3.4.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.hibernate:hibernate-validator:jar:5.3.4.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.hibernate:hibernate-validator:jar:5.3.4.Final/com.fasterxml:classmate:jar:1.3.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.7</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.7/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.7/com.fasterxml.jackson.core:jackson-core:jar:2.8.7</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework:spring-web:jar:4.3.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework:spring-web:jar:4.3.7.RELEASE/org.springframework:spring-aop:jar:4.3.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework:spring-web:jar:4.3.7.RELEASE/org.springframework:spring-beans:jar:4.3.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework:spring-web:jar:4.3.7.RELEASE/org.springframework:spring-context:jar:4.3.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework:spring-webmvc:jar:4.3.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework:spring-webmvc:jar:4.3.7.RELEASE/org.springframework:spring-expression:jar:4.3.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.2.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.2.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.11/org.apache.tomcat:tomcat-juli:jar:8.5.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.2.RELEASE/org.springframework:spring-jdbc:jar:4.3.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.2.RELEASE/org.springframework:spring-jdbc:jar:4.3.7.RELEASE/org.springframework:spring-tx:jar:4.3.7.RELEASE</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:5.1.41</node>
-            <node x="" y="">com.zaxxer:HikariCP:jar:2.5.1</node>
-            <node x="" y="">com.zaxxer:HikariCP:jar:2.5.1/org.slf4j:slf4j-api:jar:1.7.24</node>
-            <node x="" y="">org.liquibase:liquibase-core:jar:3.5.3</node>
-            <node x="" y="">org.liquibase:liquibase-core:jar:3.5.3/org.yaml:snakeyaml:jar:1.17</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.491362763915547" x="459.0" y="501.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/1.5.2.RELEASE/spring-boot-starter-web-1.5.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/software/apache-maven-3.6.0/conf/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="155" column="29" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5490" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.0/druid-1.1.0.jar!/com/alibaba/druid/pool/DruidDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1830">
-          <caret line="100" column="12" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/resources/liquibase/sql/db.1.mysql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/resources/liquibase/master.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="99" selection-start-line="4" selection-start-column="99" selection-end-line="4" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/config/Swagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/LiquibaseApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar!/javax/validation/ConstraintValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar!/javax/validation/Payload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/in/AnnotaionCheckBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/in/AnnotationCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/in/ValidateByKu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE-sources.jar!/org/springframework/util/ReflectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="440" column="23" selection-start-line="440" selection-start-column="23" selection-end-line="440" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/Dict2NameLabel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="135" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/AnnotationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -794,16 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessageAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -811,9 +527,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/workspace/springcloud-service2/src/main/java/springcloud/SpringcloudServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessageAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/Dict2Names.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/Dict2NameLabel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilReflect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
+        <state relative-caret-position="2100">
           <caret line="75" selection-start-line="75" selection-end-line="75" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -838,10 +605,306 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/Dict2Names.java">
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+        <state relative-caret-position="180">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/CacheManagerHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/NamedThreadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/OAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/net/Authenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-901">
+          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/Authentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/RoleModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/DataAccess.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/DataAccess.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/PermissionModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE-sources.jar!/org/springframework/cache/Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="147" column="14" selection-start-line="147" selection-start-column="14" selection-end-line="147" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/UserModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="63" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/UtilFastjson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="32" selection-start-column="2" selection-end-line="131" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/UtilCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="173" column="14" lean-forward="true" selection-start-column="2" selection-end-line="350" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/Authentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/AuthSupplier.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/AnonymousUserModel.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/Caches.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/LoginCaches.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/AutzUserPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/OAuth2Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/OAuth2Client.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/AccessTokenModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1721">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/OAuth2AccessToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/service/OAuth2Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/service/OAuth2ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="214" column="54" selection-start-line="214" selection-start-column="54" selection-end-line="214" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/io/WinNTFileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding>
+            <element signature="e#1352#1353#0" expanded="true" />
+            <element signature="e#1380#1381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/io/FileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/Authenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/AuthHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-711">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/OAuth2Api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/AnnotationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="57" column="24" selection-start-line="54" selection-start-column="8" selection-end-line="57" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE-sources.jar!/org/springframework/http/MediaType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="175" column="61" selection-start-line="175" selection-start-column="51" selection-end-line="175" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/upload/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="157" column="43" selection-start-line="157" selection-start-column="37" selection-end-line="157" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
