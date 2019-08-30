@@ -3,5 +3,12 @@ server:
 spring:
   profiles:
     active: dev
+
+  http:
+    multipart:
+      max-file-size: 45MB
+      max-request-size: 50MB
+
 web:
   upload-path: E:\
+

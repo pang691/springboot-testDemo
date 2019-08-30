@@ -1,5 +1,8 @@
 package com.taikang.test.upload;
 
+import com.alibaba.druid.support.json.JSONUtils;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.util.JSONPObject;
 import com.taikang.test.upload.bean.User;
 import io.swagger.annotations.*;
 import lombok.extern.slf4j.Slf4j;
@@ -8,7 +11,9 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import springfox.documentation.service.ResponseMessage;
+import springfox.documentation.spring.web.json.Json;
 
+import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
@@ -185,18 +190,20 @@ public class UploadController {
         return null;
     }
 
-    @PostMapping(value = "/uploadFile", consumes = "multipart/*", headers = {"content-type=multipart/form-data"})
+    @PostMapping(value = "/uploadFile", consumes = "multipart/*", headers = {"content-type=multipart/form-data","content-type=application/json"})
     @ApiOperation(value = "上传图片", notes = "上传图片", httpMethod = "POST",response = User.class)
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "user", value = "用户信息", required = false, paramType = "body", dataType = "User")
+            @ApiImplicitParam(name = "user", value = "用户信息", required = false, paramType = "body", dataType = "User"),
+            @ApiImplicitParam(name = "files", value = "用户信息", required = false, paramType = "File", dataType = "query")
 
     })
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "上传成功！"),
             @ApiResponse(code = 500, message = "上传失败！")
     })
-    public String uploadFile(@ApiParam(value = "医院图片", required = true) MultipartFile[] files, User user) {
-        System.out.println(user.toString());
+
+    public String uploadFile(@ApiParam(value = "医院图片", required = true) MultipartFile[] files,User user) {
+        System.out.println(user);
         for(MultipartFile file : files) {
             if (!file.isEmpty()) {
                 if (file.getContentType().contains("image")) {
@@ -219,7 +226,6 @@ public class UploadController {
                         }
                         // 上传到指定目录
                         file.transferTo(dest);
-                        return "上传成功";
                     } catch (Exception e) {
                         return "上传失败";
                     }
