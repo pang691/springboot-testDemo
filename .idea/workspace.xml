@@ -5,196 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ffeb196-3cde-4f98-8a1c-6b0578a07a65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/FileToImage/AsposeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/FileToImage/Word2PdfUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/FileToImage/WordToPngController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/basebo/BO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/basebo/BaseBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/scheduled/bo/QuartzBo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/scheduled/config/DTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/scheduled/config/Pager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/scheduled/config/PagerResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/scheduled/config/QuartzConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/scheduled/controller/QuartzApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/scheduled/dao/QuartzDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/scheduled/index.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/scheduled/job/AbstractJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/scheduled/job/MyJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/scheduled/listener/ApplicationStartQuartzJobListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/scheduled/manager/QuartzManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/scheduled/service/IQuartzService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/scheduled/service/impl/QuartzServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/resources/liquibase/sql/db.2.mysql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/resources/mapper/QuartzMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/resources/quartz.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/resources/static/excelLicense.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/resources/static/wordLicense.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/IamsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/AccessToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/AccessTokenModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/AccessTokenOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/AuthenticationOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/BO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/BasePO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/ClientGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/ClientPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/ClientPut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/OAuth2AccessToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/RoleGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/RoleModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/RolePost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/RolePut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/UserModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/UserRolePost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/config/CrosConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/config/WebAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzPermissionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzResourceDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzRoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzRoleResourceDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzUserClientDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzUserRoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/OAuth2AccessDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/OAuth2ClientDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/enums/ClientType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/enums/EnableStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/enums/LoginCaches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/ldapauth/ConstantProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/ldapauth/LdapAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/ldapauth/MySSLSocketFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/po/AutzPermissionPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/po/AutzResourcePO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/po/AutzRolePO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/po/AutzRoleResourcePO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/po/AutzUserClientPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/po/AutzUserPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/po/AutzUserRolePO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/po/OAuth2Access.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/po/OAuth2Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/AuthResourceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/AuthRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/AuthUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/AutzPermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/AutzRoleResourceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/AutzUserRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/OAuth2ClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/OAuth2Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AuthResourceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AuthRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AuthUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AutzPermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AutzRoleResourceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AutzUserRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/OAuth2ClientServiceSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/OAuth2ServiceSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/supplier/AuthSupplierAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/supplier/AuthcByOauth2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/supplier/OAuth2SupplierOnline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/util/CacheManagerHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/util/Caches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/util/LoginCacheHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/util/MessageAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/util/NamedThreadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/util/TokenCacheHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/AuthUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/AutzApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/ClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/UserRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/index.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/db/changelog/db.changelog-dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/db/changelog/sql.v1.0.0/db.1.0.0.mysql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutxResourceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzPermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzRoleResourceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzUserClientMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzUserRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/OAuth2AccessMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/OAuth2ClientMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/ITestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/TestServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/mapper/TestDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/resources/mapper/userMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AccessLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AccessLoggerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AopAccessLoggerAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/LoggerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilWeb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-fileUpLoad/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-fileUpLoad/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/FileUpLoadApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/FileUpLoadApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/upload/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/upload/UploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/resources/liquibase/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-fileUpLoad/src/main/resources/liquibase/master.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-fileUpLoad/target/classes/com/taikang/test/FileUpLoadApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-fileUpLoad/target/classes/com/taikang/test/FileUpLoadApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-fileUpLoad/target/classes/com/taikang/test/importExcel/InportExcelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-fileUpLoad/target/classes/com/taikang/test/importExcel/InportExcelController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-fileUpLoad/target/classes/com/taikang/test/upload/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-fileUpLoad/target/classes/com/taikang/test/upload/UploadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-fileUpLoad/target/classes/liquibase/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-fileUpLoad/target/classes/liquibase/master.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-liquibase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/LiquibaseApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/LiquibaseApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/CacheManagerHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/NamedThreadFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/OAuth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/OAuth2Api.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/AutzUserPO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/DataAccess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/OAuth2Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/PermissionModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/RoleModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/bo/UserModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/AnonymousUserModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/AuthHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/AuthSupplier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/Authentication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/config/Authenticator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/service/OAuth2Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/service/OAuth2ServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/AccessTokenModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/Caches.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/LoginCaches.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/OAuth2AccessToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/UtilCollection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/autz/util/UtilFastjson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/resources/liquibase/sql/db.1.mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/resources/liquibase/sql/db.1.mysql.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/LiquibaseApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/LiquibaseApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/CacheManagerHolder$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/CacheManagerHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/NamedThreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/OAuth$ContentType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/OAuth$HeaderType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/OAuth$HttpMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/OAuth$WWWAuthHeader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/OAuth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/OAuth2Api.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/bo/AutzUserPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/bo/DataAccess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/bo/OAuth2Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/bo/PermissionModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/bo/RoleModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/bo/UserModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/config/AnonymousUserModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/config/AuthHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/config/AuthSupplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/config/Authentication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/config/Authenticator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/service/OAuth2Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/service/OAuth2ServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/util/AccessTokenModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/util/Caches.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/util/LoginCaches.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/autz/util/OAuth2AccessToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/liquibase/sql/db.1.mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/target/classes/liquibase/sql/db.1.mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessageAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessageAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/annotation/UtilTools/UtilWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/annotation/UtilTools/UtilWeb.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -207,68 +30,65 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/AutzApi.java">
+        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AccessLogger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="120" column="53" selection-start-line="120" selection-start-column="53" selection-end-line="120" selection-end-column="53" />
+            <state relative-caret-position="210">
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AuthUserServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AopAccessLoggerAspect.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="91" column="75" lean-forward="true" selection-start-line="91" selection-start-column="75" selection-end-line="91" selection-end-column="75" />
+              <caret line="64" column="56" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
               <folding>
-                <element signature="e#4198#4199#0" expanded="true" />
-                <element signature="e#4225#4226#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/OAuth2ServiceSimple.java">
+        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AccessLoggerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/OAuth2Service.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/AccessToken.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzUserDao.java">
+        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilWeb.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -277,41 +97,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzUserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="59" column="86" selection-start-line="59" selection-start-column="86" selection-end-line="59" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/OAuth2ClientServiceSimple.java">
+        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilWeb.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+              <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
               <folding>
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/OAuth2ClientDao.java">
+        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="171">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/OAuth2ClientMapper.xml">
+        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/LoggerInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+            <state relative-caret-position="270">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -321,8 +137,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -358,6 +174,7 @@
       <find>xuyb15</find>
       <find>MessageAuto</find>
       <find>oAuth2ClientService</find>
+      <find>parseDateTime</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -371,17 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-liquibase/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/mapper/TestDao.java" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/LiquibaseApp.java" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzPermissionDao.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzResourceDao.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzRoleDao.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzRoleResourceDao.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzUserRoleDao.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/OAuth2AccessDao.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzUserClientDao.java" />
         <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/po/AutzRoleResourcePO.java" />
         <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/po/AutzUserClientPO.java" />
         <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/IamsApplication.java" />
@@ -422,6 +228,17 @@
         <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AuthUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/OAuth2Service.java" />
         <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/OAuth2ServiceSimple.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessageAdvice.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AccessLogger.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilAop.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilDate.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilClass.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilWeb.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilWeb.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/LoggerInfo.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AopAccessLoggerAspect.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AccessLoggerController.java" />
       </list>
     </option>
   </component>
@@ -472,116 +289,65 @@
             <path>
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-iams" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-iams" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-iams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-iams" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-iams" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-iams" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="iams" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-iams" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="iams" type="462c0819:PsiDirectoryNode" />
-              <item name="bo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="AopLogger" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-iams" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="iams" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="sqltest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-iams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="health" type="462c0819:PsiDirectoryNode" />
-              <item name="iams" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-iams" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-iams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="changelog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-iams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="changelog" type="462c0819:PsiDirectoryNode" />
-              <item name="sql.v1.0.0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-iams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -732,16 +498,15 @@
       <workItem from="1570504445818" duration="648000" />
       <workItem from="1570621698752" duration="10104000" />
       <workItem from="1572350566905" duration="28321000" />
-      <workItem from="1572846038842" duration="22133000" />
+      <workItem from="1572846038842" duration="26188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146851000" />
+    <option name="totallyTimeSpent" value="150906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -749,7 +514,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.34599838" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.34599838" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.330373" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -762,7 +527,7 @@
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="bottom" id="Run" order="10" weight="0.40319717" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.31083483" />
+      <window_info active="true" anchor="bottom" id="Debug" order="11" visible="true" weight="0.4724689" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
@@ -918,213 +683,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.taikang.test:springboot-fileUpLoad:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.taikang.test:springboot-fileUpLoad:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.taikang.test:springboot-fileUpLoad:1.0-SNAPSHOT</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot:jar:1.5.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11/ch.qos.logback:logback-core:jar:1.1.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.24</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.24</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.24</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.hibernate:hibernate-validator:jar:5.3.4.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.hibernate:hibernate-validator:jar:5.3.4.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.hibernate:hibernate-validator:jar:5.3.4.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.7</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.7/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.7/com.fasterxml.jackson.core:jackson-core:jar:2.8.7</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework:spring-web:jar:4.3.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework:spring-web:jar:4.3.7.RELEASE/org.springframework:spring-aop:jar:4.3.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework:spring-webmvc:jar:4.3.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework:spring-webmvc:jar:4.3.7.RELEASE/org.springframework:spring-expression:jar:4.3.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.2.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.2.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.11/org.apache.tomcat:tomcat-juli:jar:8.5.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.2.RELEASE/org.springframework:spring-jdbc:jar:4.3.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.2.RELEASE/org.springframework:spring-jdbc:jar:4.3.7.RELEASE/org.springframework:spring-tx:jar:4.3.7.RELEASE</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:8.0.11</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:8.0.11/com.google.protobuf:protobuf-java:jar:2.6.0</node>
-            <node x="" y="">com.alibaba:druid:jar:1.1.0</node>
-            <node x="" y="">com.alibaba:druid:jar:1.1.0/com.alibaba:jconsole:jar:1.8.0</node>
-            <node x="" y="">com.alibaba:druid:jar:1.1.0/com.alibaba:tools:jar:1.8.0</node>
-            <node x="" y="">org.liquibase:liquibase-core:jar:3.5.3</node>
-            <node x="" y="">org.liquibase:liquibase-core:jar:3.5.3/org.yaml:snakeyaml:jar:1.17</node>
-            <node x="" y="">org.projectlombok:lombok:jar:1.16.14</node>
-            <node x="" y="">com.alibaba:fastjson:jar:1.2.58</node>
-            <node x="" y="">org.apache.poi:poi:jar:4.1.0</node>
-            <node x="" y="">org.apache.poi:poi:jar:4.1.0/commons-codec:commons-codec:jar:1.10</node>
-            <node x="" y="">org.apache.poi:poi:jar:4.1.0/org.apache.commons:commons-collections4:jar:4.3</node>
-            <node x="" y="">org.apache.poi:poi:jar:4.1.0/org.apache.commons:commons-math3:jar:3.6.1</node>
-            <node x="" y="">org.apache.poi:poi-ooxml:jar:4.1.0</node>
-            <node x="" y="">org.apache.poi:poi-ooxml:jar:4.1.0/org.apache.poi:poi-ooxml-schemas:jar:4.1.0</node>
-            <node x="" y="">org.apache.poi:poi-ooxml:jar:4.1.0/org.apache.poi:poi-ooxml-schemas:jar:4.1.0/org.apache.xmlbeans:xmlbeans:jar:3.1.0</node>
-            <node x="" y="">org.apache.poi:poi-ooxml:jar:4.1.0/org.apache.commons:commons-compress:jar:1.18</node>
-            <node x="" y="">org.apache.poi:poi-ooxml:jar:4.1.0/com.github.virtuald:curvesapi:jar:1.06</node>
-            <node x="" y="">org.quartz-scheduler:quartz:jar:2.2.3</node>
-            <node x="" y="">org.quartz-scheduler:quartz:jar:2.2.3/c3p0:c3p0:jar:0.9.1.1</node>
-            <node x="" y="">org.quartz-scheduler:quartz:jar:2.2.3/org.slf4j:slf4j-api:jar:1.7.24</node>
-            <node x="" y="">org.quartz-scheduler:quartz-jobs:jar:2.2.3</node>
-            <node x="" y="">org.mybatis:mybatis:jar:3.4.0</node>
-            <node x="" y="">org.mybatis:mybatis-spring:jar:1.3.0</node>
-            <node x="" y="">org.springframework:spring-context-support:jar:4.3.7.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context-support:jar:4.3.7.RELEASE/org.springframework:spring-beans:jar:4.3.7.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context-support:jar:4.3.7.RELEASE/org.springframework:spring-context:jar:4.3.7.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context-support:jar:4.3.7.RELEASE/org.springframework:spring-core:jar:4.3.7.RELEASE</node>
-            <node x="" y="">com.aspose:aspose-words:jar:13.9.0.0</node>
-            <node x="" y="">com.aspose:aspose-cells:jar:18.6</node>
-            <node x="" y="">commons-io:commons-io:jar:2.6</node>
-            <node x="" y="">io.springfox:springfox-swagger-ui:jar:2.7.0</node>
-            <node x="" y="">io.springfox:springfox-swagger-ui:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0</node>
-            <node x="" y="">io.springfox:springfox-swagger-ui:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11</node>
-            <node x="" y="">io.springfox:springfox-swagger-ui:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11/com.google.guava:guava:jar:20.0</node>
-            <node x="" y="">io.springfox:springfox-swagger-ui:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11/org.javassist:javassist:jar:3.21.0-GA</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-annotations:jar:1.5.13</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-schema:jar:2.7.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-swagger-common:jar:2.7.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/com.google.guava:guava:jar:18.0</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/com.fasterxml:classmate:jar:1.3.3</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE</node>
-            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.mapstruct:mapstruct:jar:1.1.0.Final</node>
-            <node x="" y="">io.springfox:springfox-core:jar:2.7.0</node>
-            <node x="" y="">io.springfox:springfox-core:jar:2.7.0/net.bytebuddy:byte-buddy:jar:1.6.14</node>
-            <node x="" y="">org.apache.commons:commons-lang3:jar:3.4</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.25769036812909735" x="582.0" y="981.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aspose/aspose-cells/8.5.2/aspose-cells-8.5.2.jar!/com/aspose/cells/ImageOrPrintOptions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aspose/aspose-words/13.9.0.0/aspose-words-13.9.0.0.jar!/com/aspose/words/ImageSaveOptions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-fileUpLoad/src/main/resources/static/excelLicense.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-fileUpLoad/src/main/resources/static/wordLicense.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="384" selection-end-line="1" selection-end-column="518" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/hx3327526/FileStorage/File/2019-10/通过java后台代码实现修改word内容，同时以图片流形式返回给前台/SayHelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aspose/aspose-cells/8.5.2/aspose-cells-8.5.2.jar!/com/aspose/cells/SheetRender.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/upload/UploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4260">
-          <caret line="160" column="52" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/FileToImage/ConvertToImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-fileUpLoad/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="94" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/CodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="26" column="14" selection-start-line="20" selection-start-column="2" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/FileToImage/WordToPngController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/FileToImage/AsposeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2021">
-          <caret line="119" column="28" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aspose/aspose-words/13.9.0.0/aspose-words-13.9.0.0.jar!/com/aspose/words/ëZV5.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aspose/aspose-words/13.9.0.0/aspose-words-13.9.0.0.jar!/com/aspose/words/ëUR.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/aspose/aspose-words/13.9.0.0/aspose-words-13.9.0.0.jar!/com/aspose/words/Document.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1169,16 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-726">
           <caret line="29" column="55" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1403,8 +951,155 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/OAuth2ServiceSimple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        <state relative-caret-position="291">
+          <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessageAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/AnnotationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="90" column="37" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="79" selection-start-line="79" selection-end-line="81" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/LoggerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AopAccessLoggerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="64" column="56" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AccessLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/LiquibaseApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.7.0/springfox-core-2.7.0-sources.jar!/springfox/documentation/service/ResponseMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1107">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AccessLoggerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

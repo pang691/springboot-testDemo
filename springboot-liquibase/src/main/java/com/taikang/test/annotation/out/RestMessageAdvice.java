@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @ControllerAdvice
 @Order(1)
-public class RestMessageAdvice implements ResponseBodyAdvice<Object> {
+public class  RestMessageAdvice implements ResponseBodyAdvice<Object> {
 
     @Autowired
     private Dict2Names dict2Names;
