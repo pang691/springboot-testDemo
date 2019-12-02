@@ -1,0 +1,70 @@
+#LOGGING
+logging:
+  config: classpath:config/logback-dev.xml
+spring:
+  datasource: #数据源配置
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/myIams?characterEncoding=utf8&useSSL=false
+    username: root
+    password: root
+    hikari:
+      ## 最小空闲连接数量
+      minimum-idle: 10
+      ## 空闲连接存活最大时间，默认600000（10分钟）
+      idle-timeout: 180000
+      ## 连接池最大连接数，默认是10
+      maximum-pool-size: 2000
+      ## 此属性控制从池返回的连接的默认自动提交行为,默认值：true
+      auto-commit: true
+      ## 连接池名字
+      pool-name: HikariCP
+      ## 此属性控制池中连接的最长生命周期，值0表示无限生命周期，默认1800000即30分钟
+      max-lifetime: 1800000
+      ## 数据库连接超时时间,默认30秒，即30000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+
+health:
+  #开启访问日志:info or warn or error
+  access-logger:
+    level: info
+  auth:
+    defaultBy: oauth2
+    whitelist:
+      enable: false
+
+
+#security.basic.enabled=false
+security:
+  basic:
+    enabled: false
+
+ldap:
+  #@Ldap连接地址
+  ldapUrl: ldaps://amldap.uiam.group.tkuat.com:636
+  #@Ldap用户节点
+  ldapBaseDn: cn=users,DC=TAIKANGLIFE
+  #@Ldap查询条件 （此处依据各应用系统需求，控制允许登录认证的用户范围）
+  ldapFilter: (&(objectclass=Person)(tkssovalid=TRUE)(|(&(tkPersonType=tkPerson)(employeeType=10))(tkPersonType=tkZJPerson)(tkPersonType=tkZCPerson))(uid={0}))
+
+  #@Ldap组织放置节点
+  ldapOrgBaseDn: cn=orgs,DC=TAIKANGLIFE
+  #@Ldap组织过滤条件（控制抓取泰康人寿的全部OA组织机构）
+  ldapOrgFilter: (&(objectclass=organizationalUnit)(tkorgsource=OA)(|(tkorganizationcode=88)(tkorgcodepath=88.*)))
+  #@Ldap人员放置节点
+  ldapUserBaseDn: cn=users,DC=TAIKANGLIFE
+  #@Ldap连接用户名（生产环境后期找ldap提供）
+  bindUser: uid=ldapuser, cn=appusers, DC=TAIKANGLIFE
+  #@Ldap连接用户密码（生产环境后期找ldap提供）
+  bindPasswd: pass1234
+
+#liquibase.change-log 主配置文件的路径
+#liquibase.drop-first如果配置为true，则会每次执行时都会把对应的数据库drop掉，默认为false
+liquibase:
+  change-log: classpath:/db/changelog/db.changelog-dev.xml
+  user: ${spring.datasource.username}
+  password: ${spring.datasource.password}
+  url: ${spring.datasource.url}
+  drop-first: false
+  enabled: true

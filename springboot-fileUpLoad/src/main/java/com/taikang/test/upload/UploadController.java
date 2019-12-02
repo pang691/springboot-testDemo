@@ -202,7 +202,9 @@ public class UploadController {
             @ApiResponse(code = 500, message = "上传失败！")
     })
 
-    public String uploadFile(@ApiParam(value = "医院图片", required = true) MultipartFile[] files,User user) {
+    public String uploadFile(@ApiParam(value = "医院图片", required = true) MultipartFile[] files,@ModelAttribute User user) {
+        //可以通过对象接受参数，但是参数是key:value形式，不能为json格式，加@ModelAttribute或者不加都可以，如果用字段名接受，
+        //应该可以直接接受，或者用requestparam
         System.out.println(user);
         for(MultipartFile file : files) {
             if (!file.isEmpty()) {
@@ -210,17 +212,17 @@ public class UploadController {
                     try {
                         String temp = "images" + File.separator + "upload" + File.separator;
                         // 获取图片的文件名
-                        String fileName = file.getOriginalFilename();
+                        String fileName = file.getOriginalFilename();//可以覆盖之前上传的一样的文件
                         // 获取图片的扩展名
-                        String extensionName = fileName.substring(fileName.indexOf("."));
-                        // 新的图片文件名 = 获取时间戳+"."图片扩展名
-                        String newFileName = String.valueOf(System.currentTimeMillis()) + "." + extensionName;
+//                        String extensionName = fileName.substring(fileName.indexOf("."));
+//                        // 新的图片文件名 = 获取时间戳+"."图片扩展名
+//                        String newFileName = String.valueOf(System.currentTimeMillis()) + "." + extensionName;
                         // 数据库保存的目录
                         String datdDirectory = temp.concat(String.valueOf(1)).concat(File.separator);
                         // 文件路径
                         String filePath = webUploadPath.concat(datdDirectory);
 
-                        File dest = new File(filePath, newFileName);
+                        File dest = new File(filePath, fileName);
                         if (!dest.getParentFile().exists()) {
                             dest.getParentFile().mkdirs();
                         }

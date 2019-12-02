@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-liquibase" />
+        <module name="springboot-iams" />
         <module name="springboot-fileUpLoad" />
+        <module name="springboot-liquibase" />
       </profile>
     </annotationProcessing>
   </component>

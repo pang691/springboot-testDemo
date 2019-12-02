@@ -1,11 +1,11 @@
-package com.taikang.test.sqltest;
+package com.taikang.test.sqltest.mapper;
 
-import org.jboss.logging.Param;
-import org.mapstruct.Mapper;
+import com.taikang.test.sqltest.User;
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
-
 @Mapper
 public interface TestDao {
-    void foreachupdate(@Param List<User> userList);
+    void foreachupdate(@Param("userList") List<User> userList);
 }

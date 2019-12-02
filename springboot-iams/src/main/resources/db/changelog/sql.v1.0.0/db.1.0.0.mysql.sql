@@ -1,3 +1,108 @@
+--liquibase formatted sql
+--changeset pangxl01:1.0.0
+
+/*
+ Date: 17/07/2019 15:36:05
+*/
+
+SET NAMES utf8mb4;
+SET FOREIGN_KEY_CHECKS = 0;
+
+/* 先删除 */
+
+DROP TABLE IF EXISTS `autz_permission`;
+DROP TABLE IF EXISTS `autz_resource`;
+DROP TABLE IF EXISTS `autz_role`;
+DROP TABLE IF EXISTS `autz_role_resource`;
+DROP TABLE IF EXISTS `autz_setting`;
+DROP TABLE IF EXISTS `autz_setting_permission`;
+DROP TABLE IF EXISTS `autz_user`;
+DROP TABLE IF EXISTS `autz_user_role`;
+DROP TABLE IF EXISTS `security_access`;
+DROP TABLE IF EXISTS `security_client`;
+DROP TABLE IF EXISTS `security_audit_logger`;
+DROP TABLE IF EXISTS `unique_machineid`;
+
+
+/*Table structure for table `autz_permission` */
+
+CREATE TABLE `autz_permission` (
+  `PERMISSION_ID` varchar(32) NOT NULL,
+  `MODULE` varchar(200) DEFAULT NULL,
+  `URI` varchar(200) DEFAULT NULL,
+  `REMARK` varchar(200) DEFAULT NULL,
+  `PRIORITY` varchar(32) DEFAULT NULL,
+  `ENABLE` varchar(1) DEFAULT '1',
+  PRIMARY KEY (`PERMISSION_ID`)
+) ENGINE=InnoDB;
+
+
+/*Table structure for table `autz_resource` */
+
+CREATE TABLE `autz_resource` (
+  `resource_id` varchar(32) NOT NULL COMMENT '资源表ID',
+  `resource_code` varchar(32) DEFAULT NULL COMMENT '资源名称',
+  `resource_name` varchar(64) DEFAULT NULL COMMENT '资源描述',
+  `parent_id` varchar(32) DEFAULT NULL COMMENT '父资源编码菜单',
+  `uri` varchar(100) DEFAULT NULL COMMENT '访问地址URL',
+  `type` varchar(10) DEFAULT NULL COMMENT '类型(1.菜单menu 2.资源element(rest-api) 3.资源分类)',
+  `status` varchar(10) DEFAULT NULL COMMENT '状态(1.正常 2.禁用)',
+  `create_time` datetime DEFAULT NULL COMMENT '创建时间',
+  `update_time` datetime DEFAULT NULL COMMENT '更新时间',
+  `module` varchar(100) DEFAULT NULL COMMENT '模块',
+  PRIMARY KEY (`resource_id`)
+) ENGINE=InnoDB COMMENT='资源信息表';
+
+
+/*Table structure for table `autz_role` */
+
+CREATE TABLE `autz_role` (
+  `role_id` varchar(32) NOT NULL COMMENT '角色表ID',
+  `role_name` varchar(64) DEFAULT NULL COMMENT '角色名称',
+  `role_code` varchar(32) DEFAULT NULL COMMENT '角色CODE',
+  `create_time` datetime DEFAULT NULL COMMENT '创建时间',
+  `update_time` datetime DEFAULT NULL COMMENT '更新时间',
+  `status` smallint(6) DEFAULT NULL COMMENT '状态(0：删除 1：正常)',
+  PRIMARY KEY (`role_id`)
+) ENGINE=InnoDB COMMENT='角色表';
+
+
+/*Table structure for table `autz_role_resource` */
+
+CREATE TABLE `autz_role_resource` (
+  `role_resource_id` varchar(32) NOT NULL COMMENT '权限设置中间表ID',
+  `role_id` varchar(32) DEFAULT NULL COMMENT '角色表ID',
+  `resource_id` varchar(32) DEFAULT NULL COMMENT '资源表ID',
+  `create_time` datetime DEFAULT NULL COMMENT '创建时间',
+  `update_time` datetime DEFAULT NULL COMMENT '更新时间',
+  PRIMARY KEY (`role_resource_id`),
+  KEY `fk_reference_7` (`role_id`),
+  KEY `fk_reference_8` (`resource_id`),
+  CONSTRAINT `fk_reference_7` FOREIGN KEY (`role_id`) REFERENCES `autz_role` (`role_id`),
+  CONSTRAINT `fk_reference_8` FOREIGN KEY (`resource_id`) REFERENCES `autz_resource` (`resource_id`)
+) ENGINE=InnoDB COMMENT='角色资源设置中间表';
+
+
+/*Table structure for table `autz_setting` */
+
+CREATE TABLE `autz_setting` (
+  `SETTING_ID` varchar(32) NOT NULL,
+  `TYPE` varchar(100) DEFAULT NULL,
+  `SETTING_FOR` varchar(100) DEFAULT NULL,
+  `REMARK` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`SETTING_ID`)
+) ENGINE=InnoDB;
+
+
+/*Table structure for table `autz_setting_permission` */
+
+CREATE TABLE `autz_setting_permission` (
+  `SETTING_PERMISSION_ID` varchar(32) NOT NULL,
+  `SETTING_ID` varchar(32) DEFAULT NULL,
+  `PERMISSION_ID` varchar(32) DEFAULT NULL,
+  PRIMARY KEY (`SETTING_PERMISSION_ID`)
+) ENGINE=InnoDB;
+
 /*Table structure for table `autz_user` */
 
 CREATE TABLE `autz_user` (
@@ -89,25 +194,51 @@ CREATE TABLE `unique_machineid` (
   PRIMARY KEY (`machine_id`)
 ) ENGINE=InnoDB COMMENT='ID生成器使用的唯一机器标识';
 
-
-/*================  data  ======= */
-/*Data for the table `autz_user` */
-
-insert  into `autz_user`(`user_id`,`name`,`username`,`password`,`email`,`last_login_ip`,`last_login_time`,`enable`) values
-('0001','系统管理员','system_admin','1234q!',NULL,NULL,NULL,'1'),
-('0002','空间管理','space_admin','1234q!',NULL,NULL,NULL,'1');
-
-insert  into `autz_user`(`user_id`,`name`,`username`,`password`,`email`,`last_login_ip`,`last_login_time`,`enable`) values
-('4084603657160704','匿名用户','anonymous','pass1234',NULL,NULL,NULL,'1'),
-('4084603657160705','高端医疗险','ship','pass1234',NULL,NULL,NULL,'1'),
-('4084603657160706','健保通','jbt','jbt',NULL,NULL,NULL,'1'),
-('4084603657160707','规则引擎','tkre','pass1234',NULL,NULL,NULL,'1');
-
 /*Data for the table `security_client` */
 
 insert  into `security_client`(`client_id`,`name`,`secret`,`remark`,`status`) values ('pdms','pdms','pdms',NULL,'1');
 insert  into `security_client`(`client_id`,`name`,`secret`,`remark`,`status`) values ('jbt_admin','jbt','7dab05683d31cda2af508a5d42c60d9d',NULL,'1');
 insert  into `security_client`(`client_id`,`name`,`secret`,`remark`,`status`) values ('ship_admin','ship','23402d775bfe9fd82b4334cd1bed2a43','','1');
 insert  into `security_client`(`client_id`,`name`,`secret`,`remark`,`status`) values ('tkre','tkre','c8e3fa8f7f54a6938c894dae9e2adadc',NULL,'1');
+
+alter table `security_client` add column client_type varchar(1) not null default '1' COMMENT '客户端类型：1:usertoken 2:apitoken';
+
+--changeset pangxl01:1.0.0.2
+
+/* 唯一索引*/
+create unique index idx_uni_username        on autz_user(username);
+create unique index idx_uni_rolecode        on autz_role(role_code);
+create unique index idx_uni_userid_roleid   on autz_user_role(user_id,role_id);
+create unique index idx_uni_clientid        on security_client(client_id);
+
+
+ALTER TABLE autz_user_role MODIFY user_id varchar(32) not null COMMENT '用户ID';
+
+ALTER TABLE security_audit_logger
+  CHANGE response_content   response_content    blob NULL COMMENT '响应内容',
+  CHANGE request_param      request_param       blob NULL COMMENT '请求参数',
+  CHANGE exception_info     exception_info      blob null COMMENT '异常信息';
+
+--changeset pangxl01:1.0.0.2
+DROP TABLE IF EXISTS `autz_user_client`;
+
+ALTER TABLE security_audit_logger
+  CHANGE user_agent         user_agent          blob NULL COMMENT '代理人',
+  CHANGE request_header     request_header      blob NULL COMMENT '请求头';
+
+CREATE TABLE `autz_user_client` (
+  `user_client_id` varchar(32) NOT NULL COMMENT '用户客户端关联表ID',
+  `user_id` varchar(32) NOT NULL COMMENT '用户ID',
+  `client_id` varchar(32) DEFAULT NULL COMMENT '客户端表ID',
+  `create_by` varchar(32) DEFAULT NULL COMMENT '创建人',
+  `create_time` datetime DEFAULT NULL COMMENT '创建时间',
+  `update_by` varchar(32) DEFAULT NULL COMMENT '更新人',
+  `update_time` datetime DEFAULT NULL COMMENT '更新时间',
+  PRIMARY KEY (`user_client_id`)
+) ENGINE=InnoDB;
+
+
+/* 唯一索引*/
+create unique index idx_uni_userid_clientid on autz_user_client(user_id,client_id);
 
 COMMIT;

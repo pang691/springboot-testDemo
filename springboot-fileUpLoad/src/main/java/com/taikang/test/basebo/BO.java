@@ -1,4 +1,4 @@
 package com.taikang.test.basebo;
 
-public class BO {
+public interface BO{
 }
