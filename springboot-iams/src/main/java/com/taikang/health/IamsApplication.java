@@ -1,13 +1,13 @@
 package com.taikang.health.iams;
 
-import com.taikang.health.iams.supplier.AuthcByOauth2;
+
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-@SpringBootApplication(scanBasePackages = {"com.taikang.health"})
-@MapperScan(basePackages = {"com.taikang.health.**.access"})
+@SpringBootApplication
+@MapperScan(basePackages = {"com.taikang.***.iams.dao"})
 public class IamsApplication {
 
 	public static void main(String[] args) {
