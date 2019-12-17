@@ -21,7 +21,7 @@ public class MySSLSocketFactory extends SSLSocketFactory {
     public MySSLSocketFactory() {
         try {
             SSLContext ctx = SSLContext.getInstance("TLS");
-            ctx.init(null, new TrustManager[] { new DummyTrustmanager() }, new SecureRandom());
+//            ctx.init(null, new TrustManager[] { new DummyTrustmanager() }, new SecureRandom());
             socketFactory = ctx.getSocketFactory();
         } catch (RuntimeException e) {
             // 日志

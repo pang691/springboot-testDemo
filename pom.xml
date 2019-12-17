@@ -12,6 +12,7 @@
         <module>springboot-liquibase</module>
         <module>springboot-fileUpLoad</module>
         <module>springboot-iams</module>
+        <module>springboot-fastdfs</module>
     </modules>
 
     <properties>

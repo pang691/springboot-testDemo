@@ -81,10 +81,10 @@
             <artifactId>org.apache.oltu.oauth2.resourceserver</artifactId>
             <version>1.0.2</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.aspectj</groupId>
@@ -94,9 +94,9 @@
 
     <build>
         <plugins>
-            <plugin>
+            <!--<plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
-            </plugin>
+            </plugin>-->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>

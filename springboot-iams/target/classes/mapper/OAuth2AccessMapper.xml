@@ -36,6 +36,38 @@
             and access_token=#{params.accessToken}
         </if>
     </update>
+    <select id="selectSingle" parameterType="com.taikang.health.iams.bo.AccessToken"
+    resultType="com.taikang.health.iams.bo.AccessToken">
+        select * from security_access a where client_id = #{clientId} and user_id = #{userId}
+    </select>
+    <delete id="deleteAccessToken" parameterType="com.taikang.health.iams.bo.AccessToken">
+        delete from security_access where client_id = #{clientId} and user_id = #{userId}
+    </delete>
 
-
+    <insert id="insertAccessToken" parameterType="com.taikang.health.iams.bo.AccessToken">
+        insert into security_access
+        (
+        access_id,
+        client_id,
+        user_id,
+        access_token,
+        refresh_token,
+        create_date,
+        expire_in,
+        refresh_token_validity,
+        access_token_update_time
+        )
+        value
+        (
+        id,
+        clientId,
+        userId,
+        accessToken,
+        refreshToken,
+        expireIn,
+        now(),
+        null,
+        null
+        )
+    </insert>
 </mapper>

@@ -1,13 +1,12 @@
-package com.taikang.health.iams;
+package com.taikang.health;
 
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-@MapperScan(basePackages = {"com.taikang.***.iams.dao"})
+@MapperScan(basePackages = {"com.taikang.health.**.dao"})
 public class IamsApplication {
 
 	public static void main(String[] args) {

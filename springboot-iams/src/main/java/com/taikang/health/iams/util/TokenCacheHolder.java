@@ -1,5 +1,7 @@
 package com.taikang.health.iams.util;
 
+import com.taikang.health.iams.bo.AccessToken;
+import com.taikang.health.iams.exception.AuthcException;
 import com.taikang.health.iams.service.OAuth2Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -95,12 +97,10 @@ public class TokenCacheHolder {
         }
         // 缓存的token无效
         if (auth2Access == null || auth2Access.getAccessTokenLeftTime() <= 0L) {
-            QueryParamAsPO param = null;
-            Param param2 = QueryParamAsPO.build().where("clientId", clientId).where("userId", userId);
-            if (param2 instanceof QueryParamAsPO) {
-                param = (QueryParamAsPO) param2;
-            }
-            auth2Access = serviceTarget.selectSingle(param, AccessToken.class);
+            AccessToken accessTokens = new AccessToken();
+            accessTokens.setClientId(clientId).setUserId(userId);
+
+            auth2Access = serviceTarget.selectSingle(accessTokens);
             // 数据库是否有效token
             if (auth2Access != null && auth2Access.getAccessTokenLeftTime() > 0L) {
                 cache.put(cacheKey, auth2Access);

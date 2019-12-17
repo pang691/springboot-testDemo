@@ -1,5 +1,6 @@
 package com.taikang.health.iams.service;
 
+import com.taikang.health.iams.bo.UserRolePost;
 import com.taikang.health.iams.po.AutzUserRolePO;
 
 import java.util.List;
@@ -10,4 +11,5 @@ public interface AutzUserRoleService  {
 
     int deleteUserRole(AutzUserRolePO po);
 
+    void insertUserRolePost(UserRolePost userRolePost);
 }

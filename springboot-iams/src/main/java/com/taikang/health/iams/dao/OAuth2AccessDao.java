@@ -1,7 +1,10 @@
 package com.taikang.health.iams.dao;
 
+import com.taikang.health.iams.bo.AccessToken;
 import com.taikang.health.iams.po.OAuth2Access;
+import org.apache.ibatis.annotations.Mapper;
 
+@Mapper
 public interface OAuth2AccessDao {
 
     /**
@@ -26,4 +29,9 @@ public interface OAuth2AccessDao {
      */
     int updateByIdAndKeys(OAuth2Access newToken, OAuth2Access oldToken);
 
+    AccessToken selectSingle(AccessToken accessTokens);
+
+    void deleteAccessToken(AccessToken accessTokens);
+
+    void insertAccessToken(AccessToken auth2Access);
 }

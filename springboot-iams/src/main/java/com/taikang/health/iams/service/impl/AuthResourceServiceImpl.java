@@ -1,5 +1,6 @@
 package com.taikang.health.iams.service.impl;
 
+import com.taikang.health.iams.dao.AutzResourceDao;
 import com.taikang.health.iams.po.AutzResourcePO;
 import com.taikang.health.iams.service.AuthResourceService;
 import org.slf4j.Logger;
@@ -9,30 +10,21 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
+@Service("authResourceService")
 public class AuthResourceServiceImpl implements AuthResourceService {
 
     private static Logger _log = LoggerFactory.getLogger(AuthResourceServiceImpl.class);
 
     @Autowired
-    private AutzResourceDao autzPermissionDao;
-
-    @Override
-    public AutzResourceDao getDefaultDao() {
-        return autzPermissionDao;
-    }
+    private AutzResourceDao autzResourceDao;
 
     @Override
     public List<AutzResourcePO> listResources(String userId) {
-        return autzPermissionDao.listResources(userId);
+        return autzResourceDao.listResources(userId);
     }
 
     @Override
     public List<AutzResourcePO> roleResources(String roleId) {
-        return autzPermissionDao.roleResources(roleId);
+        return autzResourceDao.roleResources(roleId);
     }
-
-
-
-
 }

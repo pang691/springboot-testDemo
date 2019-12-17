@@ -10,23 +10,19 @@ import com.taikang.health.iams.util.Caches;
 import com.taikang.health.iams.util.MessageAuto;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.Cache;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
+import java.util.List;
 
 @Service
-public class OAuth2ServiceSimple extends CrudServiceSupport implements OAuth2Service {
+public class OAuth2ServiceSimple implements OAuth2Service {
 
     @Autowired
     private OAuth2AccessDao oAuth2AccessDao;
-
-
-    @Override
-    public OAuth2AccessDao getDefaultDao() {
-        return oAuth2AccessDao;
-    }
 
     @Value("${oauth2.access_token.expiresIn:86400}")
     private String accessTokenExpiresIn;
@@ -39,26 +35,16 @@ public class OAuth2ServiceSimple extends CrudServiceSupport implements OAuth2Ser
     @Override
     public void addAccessToken(AccessToken auth2Access) {
         if (auth2Access.getId() == null) {
-            auth2Access.setId(UtilId.genWorkerId());
+            auth2Access.setId("1");
         }
         //删除旧的token,相同clientId,userId只有一个token
-        QueryParamAsPO param = null;
-        Param param2 = QueryParamAsPO.build().where("clientId", auth2Access.getClientId()).where("userId", auth2Access.getUserId());
-        if (param2 instanceof QueryParamAsPO) {
-            param = (QueryParamAsPO) param2;
-        }
-        List<AccessTokenModel> accesses = super.select(oAuth2AccessDao, param, AccessTokenModel.class);
-        if (!accesses.isEmpty()) {
-            for (AccessTokenModel m : accesses) {
-                this.removeAccessFromCache(m.getAccessToken());
-            }
-            DeleteParamEntity delete = null;
-            Param param1 = DeleteParamEntity.build().where("clientId", auth2Access.getClientId()).where("userId", auth2Access.getUserId());
+        AccessToken accessTokens = new AccessToken();
+        accessTokens.setClientId(auth2Access.getClientId()).setUserId(auth2Access.getUserId());
+        AccessToken accesses = oAuth2AccessDao.selectSingle(accessTokens);
+        if (null != accesses) {
+                this.removeAccessFromCache(accesses.getAccessToken());
 
-            if (param1 instanceof DeleteParamEntity) {
-                delete = (DeleteParamEntity) param1;
-            }
-            oAuth2AccessDao.delete(delete);
+            oAuth2AccessDao.deleteAccessToken(accessTokens);
         }
         // 设置有效时间
         if (0 == auth2Access.getExpireIn()) {
@@ -67,7 +53,7 @@ public class OAuth2ServiceSimple extends CrudServiceSupport implements OAuth2Ser
         if (0 == auth2Access.getRefreshTokenValidity()) {
             auth2Access.setRefreshTokenValidity(getRefreshTokenValidity());
         }
-        oAuth2AccessDao.insert(auth2Access);
+        oAuth2AccessDao.insertAccessToken(auth2Access);
     }
 
     /**
@@ -153,6 +139,11 @@ public class OAuth2ServiceSimple extends CrudServiceSupport implements OAuth2Ser
     @Override
     public int getRefreshTokenValidity() {
         return Integer.decode(refreshTokenExpiresIn);
+    }
+
+    @Override
+    public AccessToken selectSingle(AccessToken accessTokens) {
+        return oAuth2AccessDao.selectSingle(accessTokens);
     }
 
 

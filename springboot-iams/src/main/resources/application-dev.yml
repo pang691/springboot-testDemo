@@ -1,11 +1,11 @@
 #LOGGING
-logging:
-  config: classpath:config/logback-dev.xml
+#logging:
+  #config: classpath:config/logback-dev.xml
 spring:
   datasource: #数据源配置
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/myIams?characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://localhost:3306/myiams?characterEncoding=utf8&useSSL=false
     username: root
     password: root
     hikari:
@@ -68,3 +68,7 @@ liquibase:
   url: ${spring.datasource.url}
   drop-first: false
   enabled: true
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.taikang.health.iams

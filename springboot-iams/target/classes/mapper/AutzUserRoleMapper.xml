@@ -24,4 +24,25 @@
             and role_id = #{roleId}
         </if>
     </delete>
+
+    <insert id="insertUserRolePost" parameterType="com.taikang.health.iams.bo.UserRolePost">
+        insert into autz_user_role
+        (
+        user_role_id,
+        user_id,
+        role_id,
+        remark,
+        create_time,
+        update_time
+        )
+        value
+        (
+        id,
+        userId,
+        roleId,
+        "1",
+        now(),
+        now()
+        )
+    </insert>
 </mapper>

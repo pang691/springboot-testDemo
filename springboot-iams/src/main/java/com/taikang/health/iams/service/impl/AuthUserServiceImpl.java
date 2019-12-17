@@ -8,6 +8,7 @@ import com.taikang.health.iams.po.AutzUserRolePO;
 import com.taikang.health.iams.service.AuthUserService;
 import com.taikang.health.iams.service.AutzUserRoleService;
 import com.taikang.health.iams.service.OAuth2Service;
+import com.taikang.health.iams.util.FastJsonRedisTemplate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,11 +38,6 @@ public class AuthUserServiceImpl implements AuthUserService {
     private FastJsonRedisTemplate fjr;
 
     @Override
-    public AutzUserDao getDefaultDao() {
-        return autzUserDao;
-    }
-
-    @Override
     public AutzUserPO selectByUsername(String username) {
         return autzUserDao.getByUserName(username);
     }
@@ -66,7 +62,7 @@ public class AuthUserServiceImpl implements AuthUserService {
                     UserRolePost userRolePost = new UserRolePost();
                     userRolePost.setUserId(autzUserPO.getId());
                     userRolePost.setRoleId("4084603657160106");
-                    service.insert(userRolePost);
+                    service.insertUserRolePost(userRolePost);
                     idList.add(autzUserPO.getId());
                 } else {
                     idList.add(autzUserPO1.getId());
@@ -120,5 +116,10 @@ public class AuthUserServiceImpl implements AuthUserService {
     @Override
     public AutzUserPO selectSingle(AutzUserPO queryUser) {
         return autzUserDao.selectSingle(queryUser);
+    }
+
+    @Override
+    public void insertAutzUserPO(AutzUserPO userPo) {
+        autzUserDao.insertAutzUserPO(userPo);
     }
 }

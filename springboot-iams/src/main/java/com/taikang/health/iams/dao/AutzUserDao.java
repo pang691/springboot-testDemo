@@ -1,9 +1,10 @@
 package com.taikang.health.iams.dao;
 
 import com.taikang.health.iams.po.AutzUserPO;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
-
+@Mapper
 public interface AutzUserDao {
     AutzUserPO getByUserName(String username);
 
@@ -16,4 +17,6 @@ public interface AutzUserDao {
     boolean deleteByUserId(List<AutzUserPO> list);
 
     List<AutzUserPO> queryAutzUser(AutzUserPO autzUserPO);
+
+    void insertAutzUserPO(AutzUserPO userPo);
 }

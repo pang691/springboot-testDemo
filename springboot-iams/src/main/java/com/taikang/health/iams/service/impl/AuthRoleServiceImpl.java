@@ -1,5 +1,6 @@
 package com.taikang.health.iams.service.impl;
 
+import com.taikang.health.iams.dao.AutzRoleDao;
 import com.taikang.health.iams.po.AutzRolePO;
 import com.taikang.health.iams.service.AuthRoleService;
 import org.slf4j.Logger;
@@ -16,10 +17,6 @@ public class AuthRoleServiceImpl  implements AuthRoleService {
     @Autowired
     private AutzRoleDao authRoleDao;
 
-    @Override
-    public AutzRoleDao getDefaultDao() {
-        return authRoleDao;
-    }
 
     @Override
     public List<AutzRolePO> getRolesByUserId(String userId) {

@@ -59,4 +59,27 @@
     <select id="selectSingle" parameterType="" resultType="">
         select * from autz_user where username = #{username} and password = #{password} and enable='1';
     </select>
+
+    <insert id="insertAutzUserPO" parameterType="com.taikang.health.iams.po.AutzUserPO">
+        insert into autz_user
+        (
+        user_id,
+        name,
+        username,
+        password,
+        email,
+        last_login_ip,
+        last_login_time
+        )
+        value
+        (
+        id,
+        name ,
+        username,
+        password,
+        email,
+        lastLoginIp,
+        lastLoginTime
+        )
+    </insert>
 </mapper>

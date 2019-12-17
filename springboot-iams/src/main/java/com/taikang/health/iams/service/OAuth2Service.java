@@ -18,4 +18,5 @@ public interface OAuth2Service  {
 
     int getRefreshTokenValidity();
 
+    AccessToken selectSingle(AccessToken accessTokens);
 }

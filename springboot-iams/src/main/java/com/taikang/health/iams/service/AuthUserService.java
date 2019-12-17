@@ -17,4 +17,6 @@ public interface AuthUserService {
     List<AutzUserPO> queryAutzUser(AutzUserPO autzUserPOS);
 
     AutzUserPO selectSingle(AutzUserPO queryUser);
+
+    void insertAutzUserPO(AutzUserPO userPo);
 }

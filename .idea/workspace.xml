@@ -5,25 +5,87 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ffeb196-3cde-4f98-8a1c-6b0578a07a65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AccessLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AccessLoggerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AopAccessLoggerAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/LoggerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilAop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-fastdfs/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/FastdfsApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/config/FdfsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/config/FdfsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/config/Swagger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/utils/CommonFileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/web/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-fastdfs/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-fastdfs/src/main/resources/templates/file.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-fastdfs/src/main/resources/templates/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/DataAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/PermissionModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/exception/AuthcException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/supplier/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/supplier/Authenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/util/FastJsonRedisSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/util/FastJsonRedisTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/config/logback-dev.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/IamsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/IamsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzPermissionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzPermissionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzResourceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzResourceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzRoleResourceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzRoleResourceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzUserClientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzUserClientDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzUserRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzUserRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/OAuth2AccessDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/OAuth2AccessDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/OAuth2ClientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/OAuth2ClientDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/ldapauth/ConstantProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/ldapauth/ConstantProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/ldapauth/MySSLSocketFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/ldapauth/MySSLSocketFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/AuthUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/AuthUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/AutzUserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/AutzUserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/OAuth2Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/OAuth2Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AuthResourceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AuthResourceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AuthRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AuthRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AuthUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AuthUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AutzPermissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AutzPermissionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AutzRoleResourceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AutzRoleResourceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AutzUserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AutzUserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/OAuth2ServiceSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/OAuth2ServiceSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/supplier/AuthSupplierAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/supplier/AuthSupplierAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/supplier/AuthcByOauth2.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/supplier/AuthcByOauth2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/supplier/OAuth2SupplierOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/supplier/OAuth2SupplierOnline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/util/TokenCacheHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/util/TokenCacheHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/AuthUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/AuthUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/AutzApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/AutzApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/UserRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/UserRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutxResourceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzResourceMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzUserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzUserRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/OAuth2AccessMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/OAuth2AccessMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/target/classes/db/changelog/db.changelog-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/target/classes/db/changelog/db.changelog-dev.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/target/classes/db/changelog/sql.v1.0.0/db.1.0.0.1.mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/target/classes/mapper/AutxResourceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/target/classes/mapper/AutzUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/target/classes/mapper/AutzUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/target/classes/mapper/AutzUserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/target/classes/mapper/AutzUserRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/target/classes/mapper/OAuth2AccessMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/target/classes/mapper/OAuth2AccessMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-iams/target/classes/mapper/OAuth2ClientMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-iams/target/classes/mapper/OAuth2ClientMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-liquibase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessageAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessageAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/annotation/UtilTools/UtilWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/annotation/UtilTools/UtilWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AopAccessLoggerAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AopAccessLoggerAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-liquibase/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/AopLogger/AopAccessLoggerAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-liquibase/target/classes/com/taikang/test/AopLogger/AopAccessLoggerAspect.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springboot-liquibase/target/" />
     <ignored path="$PROJECT_DIR$/springboot-fileUpLoad/target/" />
     <ignored path="$PROJECT_DIR$/springboot-iams/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-fastdfs/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,46 +111,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AccessLogger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AopAccessLoggerAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="64" column="56" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AccessLoggerController.java">
+        <entry file="file://$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/web/FileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilWeb.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="123">
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,10 +124,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilWeb.java">
+        <entry file="file://$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/utils/CommonFileUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+            <state relative-caret-position="182">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,25 +136,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilClass.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="213" selection-start-line="213" selection-end-line="213" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/LoggerInfo.java">
+        <entry file="file://$PROJECT_DIR$/springboot-fastdfs/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/upload/UploadController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="94" column="4" lean-forward="true" selection-start-line="94" selection-start-column="4" selection-end-line="103" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -145,9 +175,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>query_cache_size</find>
-      <find>splitString2List</find>
-      <find>AuthcException</find>
       <find>setAuthenticator</find>
       <find>OAuth2AccessToken</find>
       <find>getSheetRowValues</find>
@@ -175,6 +202,9 @@
       <find>MessageAuto</find>
       <find>oAuth2ClientService</find>
       <find>parseDateTime</find>
+      <find>deleteUserRole</find>
+      <find>AuthResourceService</find>
+      <find>authResourceServiceImpl</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -188,57 +218,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/po/AutzRoleResourcePO.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/po/AutzUserClientPO.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/IamsApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/OAuth2AccessMapper.xml" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzUserRoleMapper.xml" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzUserClientMapper.xml" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzRoleMapper.xml" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzRoleResourceMapper.xml" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutxResourceMapper.xml" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzPermissionMapper.xml" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/CodeTest.java" />
-        <option value="$PROJECT_DIR$/springboot-fileUpLoad/src/main/resources/static/wordLicense.xml" />
-        <option value="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/FileToImage/ConvertToImage.java" />
-        <option value="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/FileToImage/AsposeUtil.java" />
-        <option value="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/FileToImage/WordToPngController.java" />
-        <option value="$PROJECT_DIR$/springboot-fileUpLoad/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/FileToImage/Word2PdfUtil.java" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/resources/mapper/userMapper.xml" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/TestController.java" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/TestServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/User.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/AutzUserRoleService.java" />
         <option value="$PROJECT_DIR$/springboot-iams/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/resources/db/changelog/sql.v1.0.0/db.1.0.0.1.mysql.sql" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/resources/db/changelog/db.changelog-dev.xml" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/resources/db/changelog/sql.v1.0.0/db.1.0.0.mysql.sql" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/po/OAuth2Client.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/OAuth2ClientService.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/OAuth2ClientDao.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/OAuth2ClientServiceSimple.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/OAuth2ClientMapper.xml" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/AutzApi.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/AuthUserService.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzUserMapper.xml" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzUserDao.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/AccessToken.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/util/FastJsonRedisSerializer.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/util/FastJsonRedisTemplate.java" />
         <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AuthUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/OAuth2Service.java" />
-        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/OAuth2ServiceSimple.java" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessageAdvice.java" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AccessLogger.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AutzUserRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzUserRoleDao.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzUserRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AutzPermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzPermissionDao.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AutzRoleResourceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AuthRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/ldapauth/ConstantProperties.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/ldapauth/MySSLSocketFactory.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/supplier/Authenticator.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/DataAccess.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/PermissionModel.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/supplier/Authentication.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/supplier/AuthcByOauth2.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/supplier/AuthSupplierAdmin.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/supplier/OAuth2SupplierOnline.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/AuthController.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/AuthUserController.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/ClientController.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/RoleController.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/UserController.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/UserRoleController.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/resources/config/logback-dev.xml" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzRoleDao.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzRoleResourceDao.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzUserClientDao.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/OAuth2ClientDao.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AuthResourceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzResourceDao.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/IamsApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/IamsApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-iams/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/springboot-liquibase/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilAop.java" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilDate.java" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilClass.java" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilWeb.java" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilWeb.java" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/LoggerInfo.java" />
         <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AopAccessLoggerAspect.java" />
-        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AccessLoggerController.java" />
+        <option value="$PROJECT_DIR$/springboot-liquibase/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/springboot-fastdfs/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/FastdfsApp.java" />
+        <option value="$PROJECT_DIR$/springboot-fastdfs/src/main/resources/templates/file.html" />
+        <option value="$PROJECT_DIR$/springboot-fastdfs/src/main/resources/templates/success.html" />
+        <option value="$PROJECT_DIR$/springboot-fastdfs/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/config/FdfsConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-fastdfs/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/config/FdfsConfiguration.java" />
+        <option value="$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/utils/CommonFileUtil.java" />
+        <option value="$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/config/Swagger2.java" />
+        <option value="$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/web/FileController.java" />
       </list>
     </option>
   </component>
@@ -258,7 +288,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-fastdfs" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-fastdfs" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -266,7 +306,7 @@
     <option name="jreName" value="#JAVA_HOME" />
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="15" />
     <option name="y" value="30" />
     <option name="width" value="1890" />
@@ -289,65 +329,110 @@
             <path>
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-fastdfs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-fastdfs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-fastdfs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-fastdfs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-fastdfs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="AopLogger" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-fastdfs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="sqltest" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-fastdfs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-fastdfs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-liquibase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -381,6 +466,9 @@
       <recent name="D:\git_resp01\springboot-test" />
       <recent name="D:\workspace\springboot-test\springboot-liquibase\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.taikang.health" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git_resp01\springboot-test\springboot-iams\src\main\resources" />
       <recent name="D:\git_resp01\springboot-test\springboot-fileUpLoad\src\main\resources\mapper" />
@@ -398,20 +486,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LiquibaseApp">
-    <configuration name="ConvertToImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.taikang.test.FileToImage.ConvertToImage" />
-      <module name="springboot-fileUpLoad" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.taikang.test.FileToImage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.FastdfsApp">
     <configuration name="TestController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.taikang.test.sqltest.TestController" />
       <module name="springboot-liquibase" />
@@ -425,28 +500,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Word2PdfUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.taikang.test.FileToImage.Word2PdfUtil" />
-      <module name="springboot-fileUpLoad" />
+    <configuration name="FastdfsApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-fastdfs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.taikang.test.FileToImage.*" />
+          <option name="PATTERN" value="com.my.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordToPngController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.taikang.test.FileToImage.WordToPngController" />
-      <module name="springboot-fileUpLoad" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.taikang.test.FileToImage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.my.test.FastdfsApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -454,6 +516,32 @@
     <configuration name="FileUpLoadApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-fileUpLoad" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.taikang.test.FileUpLoadApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IamsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-iams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.taikang.health.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taikang.health.IamsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IamsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-iams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.taikang.health.iams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taikang.health.iams.IamsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -473,11 +561,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.FastdfsApp" />
+        <item itemvalue="Spring Boot.IamsApplication (1)" />
+        <item itemvalue="Spring Boot.IamsApplication" />
         <item itemvalue="Spring Boot.LiquibaseApp" />
         <item itemvalue="Application.TestController" />
-        <item itemvalue="Application.Word2PdfUtil" />
-        <item itemvalue="Application.WordToPngController" />
-        <item itemvalue="Application.ConvertToImage" />
       </list>
     </recent_temporary>
   </component>
@@ -498,15 +586,16 @@
       <workItem from="1570504445818" duration="648000" />
       <workItem from="1570621698752" duration="10104000" />
       <workItem from="1572350566905" duration="28321000" />
-      <workItem from="1572846038842" duration="26188000" />
+      <workItem from="1572846038842" duration="43111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150906000" />
+    <option name="totallyTimeSpent" value="167829000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -514,7 +603,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.34599838" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.34599838" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.330373" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -525,9 +614,9 @@
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.40319717" />
-      <window_info active="true" anchor="bottom" id="Debug" order="11" visible="true" weight="0.4724689" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.7246892" />
+      <window_info active="true" anchor="bottom" id="Debug" order="11" visible="true" weight="0.41740674" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
@@ -549,7 +638,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.34599838" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.34599838" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.330373" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -560,9 +649,9 @@
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.40319717" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.31083483" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.7246892" />
+      <window_info active="true" anchor="bottom" id="Debug" order="11" visible="true" weight="0.41740674" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
@@ -584,89 +673,17 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration.java</url>
-          <line>100</line>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/web/FileController.java</url>
+          <line>91</line>
           <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/Dict2Names.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilReflect.java</url>
-          <line>82</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilReflect.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilReflect.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilReflect.java</url>
-          <line>75</line>
-          <properties />
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/upload/UploadController.java</url>
-          <line>100</line>
+          <url>file://$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/utils/CommonFileUtil.java</url>
+          <line>121</line>
           <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/upload/UploadController.java</url>
-          <line>199</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/upload/UploadController.java</url>
-          <line>207</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/importExcel/InportExcelController.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/FileToImage/Word2PdfUtil.java</url>
-          <line>71</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/aspose/aspose-words/13.9.0.0/aspose-words-13.9.0.0.jar!/com/aspose/words/Document.class</url>
-          <line>505</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/aspose/aspose-words/13.9.0.0/aspose-words-13.9.0.0.jar!/asposewobfuscated/ë6V.class</url>
-          <line>90</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/TestServiceImpl.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="29" />
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -683,422 +700,359 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aspose/aspose-words/13.9.0.0/aspose-words-13.9.0.0.jar!/com/aspose/words/Document.class">
+    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzRoleResourceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzUserClientMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzUserRoleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="866" column="18" lean-forward="true" selection-start-line="866" selection-start-column="18" selection-end-line="866" selection-end-column="18" />
+        <state relative-caret-position="1380">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/nio/charset/Charset.java">
+    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/OAuth2AccessMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="681" column="18" selection-start-line="681" selection-start-column="18" selection-end-line="681" selection-end-column="18" />
-          <folding>
-            <element signature="e#27014#27015#0" expanded="true" />
-            <element signature="e#27041#27042#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2070">
+          <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aspose/aspose-words/13.9.0.0/aspose-words-13.9.0.0.jar!/com/aspose/words/HtmlSaveOptions.class">
+    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/OAuth2ClientMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="207" selection-start-line="207" selection-end-line="207" />
-          <folding>
-            <element signature="e#4999#5000#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aspose/aspose-words/13.9.0.0/aspose-words-13.9.0.0.jar!/asposewobfuscated/ë6V.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
-          <folding>
-            <element signature="e#4790#4791#0" expanded="true" />
-            <element signature="e#9668#9669#0" expanded="true" />
-            <element signature="e#9714#9715#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/FileToImage/Word2PdfUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-726">
-          <caret line="29" column="55" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-297" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/TestServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="239">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzPermissionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/supplier/AuthSupplierAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/importExcel/util/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="121" column="20" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AuthResourceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/target/classes/com/taikang/health/iams/dao/AutzUserDao.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <folding>
+            <element signature="e#0#623#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/target/classes/com/taikang/health/iams/dao/AutzUserClientDao.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <folding>
+            <element signature="e#0#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/target/classes/com/taikang/health/iams/dao/AutzRoleResourceDao.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <folding>
+            <element signature="e#0#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/AuthResourceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/OAuth2ClientServiceSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/target/classes/com/taikang/health/iams/dao/OAuth2ClientDao.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <folding>
+            <element signature="e#0#413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/target/classes/com/taikang/health/iams/dao/AutzResourceDao.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/target/classes/com/taikang/health/iams/dao/AutzPermissionDao.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/target/classes/com/taikang/health/iams/dao/AutzRoleDao.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzResourceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzResourceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/mapper/TestDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="9" selection-start-line="9" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/resources/mapper/userMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/pom.xml">
+    <entry file="file://$PROJECT_DIR$/logs/iams/iams_ClientIP_IS_UNDEFINED_8089_20191203_log_0.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
+        <state relative-caret-position="117">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/application-prod.yml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/IamsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/IamsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="64" column="58" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/db/changelog/db.changelog-dev.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/db/changelog/sql.v1.0.0/db.1.0.0.mysql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-403">
-          <caret line="220" selection-start-line="220" selection-end-line="220" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.7.0/springfox-core-2.7.0-sources.jar!/springfox/documentation/service/SecurityScheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.7.0/springfox-core-2.7.0-sources.jar!/springfox/documentation/service/OAuth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/util/MessageAuto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="33" column="74" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
-          <folding>
-            <element signature="e#2406#2407#0" expanded="true" />
-            <element signature="e#2443#2444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE-sources.jar!/org/springframework/context/MessageSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="66" column="11" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/BasePO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/po/OAuth2Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-810">
-          <caret line="48" column="33" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/OAuth2ClientServiceSimple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding>
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/OAuth2ClientDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/OAuth2ClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/OAuth2ClientMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/AuthUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/web/AutzApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="120" column="53" selection-start-line="120" selection-start-column="53" selection-end-line="120" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/resources/mapper/AutzUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="59" column="86" selection-start-line="59" selection-start-column="86" selection-end-line="59" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/dao/AutzUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/AuthUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="91" column="75" lean-forward="true" selection-start-line="91" selection-start-column="75" selection-end-line="91" selection-end-column="75" />
-          <folding>
-            <element signature="e#4198#4199#0" expanded="true" />
-            <element signature="e#4225#4226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/bo/AccessToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/OAuth2Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-iams/src/main/java/com/taikang/health/iams/service/impl/OAuth2ServiceSimple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/out/RestMessageAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/AnnotationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="90" column="37" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilAop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="79" selection-start-line="79" selection-end-line="81" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/utilTool/UtilWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/annotation/UtilTools/UtilWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/LoggerInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-21">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AopAccessLoggerAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="64" column="56" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/TestController.java">
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AccessLogger.java">
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/LiquibaseApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/FastdfsApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="30" />
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2430">
+          <caret line="96" column="16" selection-start-line="96" selection-start-column="12" selection-end-line="98" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-fastdfs/src/main/resources/templates/file.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-fastdfs/src/main/resources/templates/success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/config/FdfsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#184#201#1" expanded="true" />
+            <element signature="e#238#259#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.1-RELEASE/fastdfs-client-1.26.1-RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-fastdfs/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-fastdfs/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/config/FdfsConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/upload/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="94" column="4" lean-forward="true" selection-start-line="94" selection-start-column="4" selection-end-line="103" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-fileUpLoad/src/main/java/com/taikang/test/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="15" lean-forward="true" selection-end-line="42" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/config/Swagger2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="-710">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/LiquibaseApp.java">
+    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/sqltest/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="-170">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.7.0/springfox-core-2.7.0-sources.jar!/springfox/documentation/service/ResponseMessage.java">
+    <entry file="file://$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/config/Swagger2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1107">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="-300">
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-liquibase/src/main/java/com/taikang/test/AopLogger/AccessLoggerController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        <state relative-caret-position="100">
+          <caret line="213" selection-start-line="213" selection-end-line="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/utils/CommonFileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-fastdfs/src/main/java/com/my/test/web/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -27,5 +27,8 @@
         WHERE u.`user_id` = #{userId}
         AND u.`enable` = 1  AND ur.`status` = 1
     </select>
-
+    <select id="selectSingle" parameterType="com.taikang.health.iams.po.OAuth2Client"
+            resultType="com.taikang.health.iams.po.OAuth2Client">
+        select * from security_client where client_id = #{id} and secret = #{secret} and status = #{status}
+    </select>
 </mapper>

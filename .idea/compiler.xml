@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-iams" />
         <module name="springboot-fileUpLoad" />
+        <module name="springboot-fastdfs" />
         <module name="springboot-liquibase" />
       </profile>
     </annotationProcessing>

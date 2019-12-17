@@ -1,5 +1,6 @@
 package com.taikang.health.iams.web;
 
+import com.taikang.health.iams.bo.AccessToken;
 import com.taikang.health.iams.enums.ClientType;
 import com.taikang.health.iams.ldapauth.LdapAuthentication;
 import com.taikang.health.iams.po.AutzRolePO;
@@ -16,6 +17,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.oltu.oauth2.as.issuer.MD5Generator;
 import org.apache.oltu.oauth2.as.issuer.OAuthIssuer;
 import org.apache.oltu.oauth2.as.issuer.OAuthIssuerImpl;
@@ -34,6 +36,7 @@ import springfox.documentation.service.OAuth;
 import springfox.documentation.service.ResponseMessage;
 
 import javax.servlet.http.HttpServletResponse;
+import java.util.Date;
 import java.util.List;
 
 @RestController
@@ -68,10 +71,8 @@ public class AutzApi {
             @ApiImplicitParam(required = true, paramType = "form", dataType = "String", value = "grant type", name = "grant_type")
     })
     @PostMapping(value = "/access_token")
-    public ResponseMessage accessToken(javax.servlet.http.HttpServletRequest request) throws Exception {
+    public String accessToken(javax.servlet.http.HttpServletRequest request) throws Exception {
         logger.info("-----进入access_token,-begin-----");
-
-
         OAuthTokenRequest tokenRequest = new OAuthTokenRequest(request);
         String clientId = tokenRequest.getClientId();
         String clientSecret = tokenRequest.getClientSecret();
@@ -135,7 +136,7 @@ public class AutzApi {
         if (null == localUser) {
             logger.info("LDAP验证通过，将用户信息插入到系统用户信息表，需要分配角色");
             AutzUserPO userPo = AutzUserPO.build().setName(userName).setUsername(userName).setEnable(1);
-            authUserService.insert(userPo);
+            authUserService.insertAutzUserPO(userPo);
             throw new Exception(MessageAuto.getDefaultBean().getMessage("1006", null, null));
         }
 
@@ -183,7 +184,7 @@ public class AutzApi {
                 .setRefreshToken(token.getRefreshToken())
                 .setScope("public")
                 .buildJSONMessage();
-        return ResponseMessage.ok(response.getBody());
+        return response.getBody();
 
     }
 
@@ -192,12 +193,11 @@ public class AutzApi {
     @ApiImplicitParams({
             @ApiImplicitParam(name = "refresh_token", value = "grant refresh_token", required = true, paramType = "header", dataType = "String")
     })
-    @AccessLogger("刷新access_token")
     @RequestMapping(value = "/refresh_token", method = {RequestMethod.POST, RequestMethod.GET})
-    public ResponseMessage refresh(javax.servlet.http.HttpServletRequest request) throws OAuthSystemException {
+    public String refresh(javax.servlet.http.HttpServletRequest request) throws Exception {
         String refreshToken = request.getHeader("refresh_token");
         if (StringUtils.isEmpty(refreshToken)) {
-            throw new AuthcException(MessageAuto.getDefaultBean().getMessage("401100", null, null), 401100);
+            throw new Exception(MessageAuto.getDefaultBean().getMessage("401100", null, null));
         }
         String newAccessToken = oauthIssuerImpl.accessToken();
         AccessToken accessToken = oauth2Service.refreshToken(refreshToken, newAccessToken);
@@ -209,7 +209,7 @@ public class AutzApi {
                 .setRefreshToken(accessToken.getRefreshToken())
                 .setScope("public")
                 .buildJSONMessage();
-        return ResponseMessage.ok(response.getBody());
+        return response.getBody();
     }
 
 
