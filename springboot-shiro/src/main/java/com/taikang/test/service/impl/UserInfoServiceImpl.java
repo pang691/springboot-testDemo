@@ -1,0 +1,22 @@
+package com.taikang.test.service.impl;
+
+import com.neo.dao.UserInfoDao;
+import com.neo.model.UserInfo;
+import com.neo.sevice.UserInfoService;
+import com.taikang.test.dao.UserInfoDao;
+import com.taikang.test.model.UserInfo;
+import com.taikang.test.service.UserInfoService;
+import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
+
+@Service
+public class UserInfoServiceImpl implements UserInfoService {
+    @Resource
+    private UserInfoDao userInfoDao;
+    @Override
+    public UserInfo findByUsername(String username) {
+        System.out.println("UserInfoServiceImpl.findByUsername()");
+        return userInfoDao.findByUsername(username);
+    }
+}

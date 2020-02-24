@@ -13,6 +13,8 @@
         <module>springboot-fileUpLoad</module>
         <module>springboot-iams</module>
         <module>springboot-fastdfs</module>
+        <module>springboot-shiro</module>
+        <module>springboot-shiro2</module>
     </modules>
 
     <properties>
